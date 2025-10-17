@@ -68,6 +68,7 @@ export default function RootLayout({
                             /> */}
                               <SidebarTrigger className="lg:hidden flex text-secondary hover:text-primary hover:bg-foreground_alt z-50" />
                               <StartDialog />
+                              <div>mohideen main page and above children</div>
                               {children}
                             </main>
                           </SidebarProvider>

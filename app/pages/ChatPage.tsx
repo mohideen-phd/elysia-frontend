@@ -205,7 +205,7 @@ export default function ChatPage() {
             <DropdownMenuTrigger asChild>
               <Button className="bg-accent/10 hover:bg-accent/20 border-accent border">
                 {mode === "chat" ? (
-                  <>
+                  <>mohideen charpage
                     <BsChatFill size={14} className="text-accent" />
                     <p className="text-accent">Chat</p>
                   </>

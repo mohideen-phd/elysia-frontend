@@ -80,8 +80,8 @@ iframe {
 
 /* Ensure the overall dark mode aesthetics for the scrollbars */
 body {
-  background-color: #121212; /* Optional: ensure the rest of the page is dark-themed */
-  color: #ffffff; /* Optional: set text color for dark mode */
+  background-color: #ffffff; /* Optional: ensure the rest of the page is dark-themed */
+  color: #121212; /* Optional: set text color for dark mode */
 }
 
 .btn {
@@ -199,11 +199,11 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 9%;
-    --background_alt: 0 0% 14%;
+    --background: 0 0% 100%;
+    --background_alt: 0 0% 100%;
     --foreground: 0 0% 18%;
     --foreground_alt: 0 0% 20%;
-    --primary: 0 0% 95%;
+    --primary: 0 0% 30%;
     --secondary: 0 0% 50%;
     --accent: 151 46% 51%;
     --background_accent: 151 52% 28%;
